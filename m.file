@@ -1,0 +1,9 @@
+% Image size
+rows = 256;
+cols = 256;
+
+% Generate a random image matrix
+random_image = rand(rows, cols);
+
+% Display the image
+imshow(random_image);
